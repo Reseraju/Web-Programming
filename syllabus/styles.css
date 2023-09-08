@@ -27,8 +27,8 @@ nav {
     background-color: #b1a693 ;
     z-index: 1000;
     display: flex;
-    justify-content: space-between; /* Add this to create space between items */
-    align-items: center; /* Add this to vertically center items */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 10px;
 }
 
