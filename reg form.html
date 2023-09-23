@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationform</title>
+</head>
+<body>
+    <h1>Navbar</h1>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">js</a></li>
+            <li><a href="">python</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div>
+        <figure>
+            <img src="universe.jpg" alt="">
+            <figcaption>You create your own universe as you go along.</figcaption>
+        </figure>
+        <details>
+            <summary>Universe</summary>
+            <p>You create your own universe as you go along.The world owes you nothing because the universe has already given you everything.</p>
+        </details>
+    </div>
+    <h1>Student Registration form</h1>
+    <div>
+        <form action="" method="post" autocomplete="on">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="fname" placeholder="eg:Maria" required></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" name="lname" placeholder="eg:Thomas"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Email Address</td>
+                    <td><input type="email" name="email" placeholder="enter email"></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="tel" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td>My Photo</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ambition</td>
+                    <td>
+                        <select name="ambition" id="ambition">
+                            <option value="">Select Ambition</option>
+                            <option value="1">Doctor</option>
+                            <option value="2">Engineer</option>
+                            <option value="3">Lawer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" id="" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="city"></td>
+                </tr>
+                <tr>
+                    <td>Pin Code</td>
+                    <td><input type="number" name="pincode" maxlength="6"></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td><input type="text" name="state"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input type="text" name="country"></td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>
+                        <input type="checkbox" >Reading
+                        <input type="checkbox">ListeningMusic
+                        <input type="checkbox">WatchingSeries
+                    </td>
+                </tr>
+                <tr>
+                    <td><button>Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
