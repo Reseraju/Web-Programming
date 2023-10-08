@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobsite</title>
+</head>
+<body>
+    <h1>Student Registration form</h1>
+    <div>
+        <form action="" method="post" autocomplete="on">
+            <table cellpadding="8px">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" placeholder="eg:Maria" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" id="" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" placeholder="enter email" required></td>
+                </tr>
+                <tr>
+                    <td>Contact Number</td>
+                    <td><input type="tel" name="mobile" required></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender">Male <br>
+                        <input type="radio" name="gender">Female <br>
+                        <input type="radio" name="gender">Other <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Area Of Interest</td>
+                    <td>
+                        <input type="checkbox" >Artificial Intelligence <br>
+                        <input type="checkbox">Data Science <br>
+                        <input type="checkbox">Full Stack Developing <br>
+                        <input type="checkbox">Cybersecurity <br>
+                        <input type="checkbox">Data Analyst <br>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td>Experience</td>
+                    <td>
+                        <select name="experience" id="exp">
+                            <option value="">select</option>
+                            <option value="1">&lt 1 years</option>
+                            <option value="2">2 years</option>
+                            <option value="3">&gt= 3 years</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
